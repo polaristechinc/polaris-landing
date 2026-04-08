@@ -19,7 +19,7 @@ export function LandingFinalCta({ title, description }: LandingFinalCtaProps) {
             </p>
           </div>
           <div className="rounded-[1.6rem] border border-white/12 bg-white/6 px-5 py-4 text-sm text-slate-200 dark:bg-white/[0.045]">
-            Public site in progress
+            polaristechco.com
           </div>
         </div>
       </MarketingReveal>

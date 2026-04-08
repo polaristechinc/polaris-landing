@@ -116,7 +116,7 @@ export default function HomePage() {
       <LandingHero
         eyebrow="Legal workflow platform"
         headline="From request to draft to review, Polaris keeps legal work moving."
-        description="Polaris is currently preparing its public web presence. This temporary site highlights the platform direction and company information while the full product website is being completed."
+        description="Polaris is a legal workflow platform developed by Polaris Technology Inc. Connect intake, AI-assisted drafting, lawyer collaboration, and document delivery in one organized workspace."
         primaryCta="See how it works"
         primaryCtaHref="#workflow"
         secondaryCta="Security overview"
@@ -204,13 +204,15 @@ export default function HomePage() {
       />
 
       <LandingFinalCta
-        title="The full Polaris web experience is still in progress"
-        description="This landing page is serving as a temporary company presence while the full product website and application experience are finalized."
+        title="Polaris. Built for how legal work actually moves."
+        description="Polaris Technology Inc. develops legal workflow software for businesses, legal professionals, and operations teams. The Polaris platform brings request intake, AI-assisted drafting, lawyer collaboration, and document delivery into one structured workspace."
       />
 
       <LandingFooter
-        title="Submit requests, add company context, draft faster with AI, collaborate with legal professionals, and keep every document, conversation, and payment in one secure workspace. "
-        copyright="Polaris. All rights reserved."
+        title="Submit requests, add company context, draft faster with AI, collaborate with legal professionals, and keep every document, conversation, and payment in one secure workspace."
+        copyright="Polaris Technology Inc. All rights reserved."
+        address="16192 Coastal Highway, Lewes, DE 19958"
+        email="dev@polaristechco.com"
         productTitle="Product"
         companyTitle="Company"
         productLinks={[

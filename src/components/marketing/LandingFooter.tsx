@@ -5,6 +5,8 @@ import { BrandLogo } from "@/components/shared/BrandLogo";
 interface LandingFooterProps {
   title: string;
   copyright: string;
+  address?: string;
+  email?: string;
   productTitle: string;
   companyTitle: string;
   productLinks: {
@@ -20,6 +22,8 @@ interface LandingFooterProps {
 export function LandingFooter({
   title,
   copyright,
+  address,
+  email,
   productTitle,
   companyTitle,
   productLinks,
@@ -33,7 +37,18 @@ export function LandingFooter({
           <p className="mt-4 text-sm leading-7 text-muted-foreground">
             {title}
           </p>
-          <p className="mt-6 text-sm text-muted-foreground">
+          {address && (
+            <p className="mt-6 text-sm text-muted-foreground">{address}</p>
+          )}
+          {email && (
+            <a
+              href={`mailto:${email}`}
+              className="mt-1 block text-sm text-muted-foreground transition-colors hover:text-foreground"
+            >
+              {email}
+            </a>
+          )}
+          <p className="mt-4 text-sm text-muted-foreground">
             © {new Date().getFullYear()} {copyright}
           </p>
         </div>

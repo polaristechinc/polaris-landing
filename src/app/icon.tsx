@@ -35,7 +35,7 @@ export default function Icon() {
           </defs>
 
           <path
-            d="M140 36H280L392 384H311L277 296H143L109 384H28L140 36ZM210 104L238 156L290 184L238 212L210 316L182 212L130 184L182 156L210 104Z"
+            d="M132 28H288L404 392H304L272 304H148L116 392H16L132 28ZM210 116L232 160L278 184L232 208L210 292L188 208L142 184L188 160L210 116Z"
             fill="url(#polaris-a)"
             fillRule="evenodd"
             clipRule="evenodd"

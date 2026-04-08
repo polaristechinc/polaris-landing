@@ -35,12 +35,10 @@ export default function Icon() {
           </defs>
 
           <path
-            d="M140 36H280L392 384H311L277 296H143L109 384H28L140 36Z"
+            d="M140 36H280L392 384H311L277 296H143L109 384H28L140 36ZM210 104L238 156L290 184L238 212L210 316L182 212L130 184L182 156L210 104Z"
             fill="url(#polaris-a)"
-          />
-          <path
-            d="M210 104L238 156L290 184L238 212L210 316L182 212L130 184L182 156L210 104Z"
-            fill="white"
+            fillRule="evenodd"
+            clipRule="evenodd"
           />
         </svg>
       </div>

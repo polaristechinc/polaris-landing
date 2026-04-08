@@ -223,9 +223,9 @@ export default function HomePage() {
         ]}
         companyLinks={[
           { href: "#security", label: "Security" },
-          { href: "#footer", label: "Support" },
-          { href: "#use-cases", label: "Use cases" },
-          { href: "#product", label: "Overview" },
+          { href: "/privacy", label: "Privacy" },
+          { href: "/terms", label: "Terms" },
+          { href: "/contact", label: "Contact" },
         ]}
       />
     </main>

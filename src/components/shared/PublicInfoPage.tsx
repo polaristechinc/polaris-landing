@@ -61,23 +61,23 @@ export function PublicInfoPage({
             </div>
 
             <aside className="xl:sticky xl:top-28">
-              <div className="rounded-[1.6rem] border border-border/70 bg-white/72 p-3 shadow-[0_22px_50px_-42px_rgba(15,23,42,0.22)] backdrop-blur">
-                <div className="space-y-2">
+              <div className="rounded-[1.4rem] border border-border/70 bg-white/68 px-5 py-5 shadow-[0_18px_40px_-36px_rgba(15,23,42,0.16)] backdrop-blur">
+                <div className="space-y-1">
                   <Link
                     href="/privacy"
-                    className="block rounded-[1rem] border border-border/70 bg-white px-4 py-3 text-sm font-medium text-foreground shadow-[0_12px_30px_-24px_rgba(15,23,42,0.22)] transition-colors hover:bg-[rgba(255,248,237,0.95)]"
+                    className="block rounded-lg px-3 py-2.5 text-sm text-foreground transition-colors hover:bg-[rgba(255,248,237,0.8)] hover:text-primary"
                   >
                     Privacy Policy
                   </Link>
                   <Link
                     href="/terms"
-                    className="block rounded-[1rem] border border-border/70 bg-white px-4 py-3 text-sm font-medium text-foreground shadow-[0_12px_30px_-24px_rgba(15,23,42,0.22)] transition-colors hover:bg-[rgba(255,248,237,0.95)]"
+                    className="block rounded-lg px-3 py-2.5 text-sm text-foreground transition-colors hover:bg-[rgba(255,248,237,0.8)] hover:text-primary"
                   >
                     Terms of Service
                   </Link>
                   <Link
                     href="/contact"
-                    className="block rounded-[1rem] border border-border/70 bg-white px-4 py-3 text-sm font-medium text-foreground shadow-[0_12px_30px_-24px_rgba(15,23,42,0.22)] transition-colors hover:bg-[rgba(255,248,237,0.95)]"
+                    className="block rounded-lg px-3 py-2.5 text-sm text-foreground transition-colors hover:bg-[rgba(255,248,237,0.8)] hover:text-primary"
                   >
                     Contact
                   </Link>
